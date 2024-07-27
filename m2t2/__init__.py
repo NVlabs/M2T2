@@ -1,1 +1,16 @@
-from . import dataset_utils, dataset, m2t2, plot_utils, train_utils, meshcat_utils
+from . import matcher
+from . import pointnet2_modules
+from . import plot_utils
+from . import m2t2
+from . import pointnet2_utils
+from . import contact_decoder
+from . import meshcat_utils
+from . import criterion
+from . import rlbench_utils
+from . import dataset
+from . import dataset_utils
+from . import m2t2_agent
+from . import train_utils
+from . import pointnet2
+from . import action_decoder
+from . import model_utils
