@@ -45,7 +45,7 @@ pip install .
 ```
 
 ## Running M2T2
-1. Download [[model weights]](https://drive.google.com/drive/folders/1qlvHVi1-Jk4ET-NyHwnqZOxALVy9kTO5). `m2t2.pth` is the generic pick-and-place model which outputs all possible grasping and placement poses, whereas `m2t2_language.pth` is a model that outputs a single grasping or placement pose conditioned on a language goal.
+1. Download [[model weights]](https://huggingface.co/wentao-yuan/m2t2). `m2t2.pth` is the generic pick-and-place model which outputs all possible grasping and placement poses, whereas `m2t2_language.pth` is a model that outputs a single grasping or placement pose conditioned on a language goal.
 
 2. Run `meshcat-server` in a separate terminal. Open `http://127.0.0.1:7000/static/` in a browser window for visualization.
 
